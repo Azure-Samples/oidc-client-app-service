@@ -16,6 +16,8 @@ products:
 
 # App Service Container with OIDC Client Authentication
 
+![Image Build](https://github.com/Azure-Samples/oidc-client-app-service/workflows/Build/badge.svg)
+
 This project contains a sample Node.js server app that
 
 - is built as a docker image and pushed into an ACR container repo;
@@ -31,6 +33,8 @@ However, in some cases, you would want to have the authenticating client impleme
 - You have an existing application with established permissions, roles, and attributes, yet you need
   to map them to Azure AD user claims (e.g., Azure Application Roles should be mapped to your application's roles).
 - You have a requirement to protect only subsets of your endpoints with OIDC.
+
+![Architecture](./media/arc.png)
 
 ## Getting Started
 
