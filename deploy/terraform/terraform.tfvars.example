@@ -1,0 +1,11 @@
+# Azure account subscription ID (Required)
+subscription_id = "YOUR-AZURE-SUBSCRIPTION-ID"
+
+# Provide your tenant ID (Required)
+tenant_id = "YOUR_TENANT_ID"
+
+# If you'd like to allow other work/school tenants to log into the app, change to true
+allow_multiple_orgs = false
+
+# If you'd like to deploy to a specific Azure region, change the value of the following variable:
+location = "eastus"

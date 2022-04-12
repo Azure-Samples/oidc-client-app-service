@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-dark.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample OIDC Client App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div style="text-align: end;">
+                    <a href="/logout"><button class="secondary">Log Out</button></a>
+                </div>
+            <div>
+                <h3>Hello, {{displayName}} ({{preferredUsername}})!</h3>
+            </div>
+            <hr />
+            <div>
+                You've entered this application's protected section succesfully.
+            </div>
+            <div>
+                Here's what we at <a href="{{serviceUrl}}">{{serviceUrl}}</a> know about you:
+            </div>
+            <div>
+                <pre style="font-size: 0.7rem">{{parsedIdToken}}</pre>
+            </div>
+        </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+</body>
+</html>
