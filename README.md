@@ -171,8 +171,7 @@ the ID token Azure AD provided it:
 
 ## Resources
 
-(Any additional resources or related projects)
-
+- [Azure AD App Registration Documentation](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)
+- [Azure App Service Documentation](https://docs.microsoft.com/en-us/azure/app-service/overview)
 - [Terraform registry](https://www.terraform.io/registry/providers)
 - [How to write Dockerfiles](https://docs.docker.com/engine/reference/builder/)
-- [Azure AD App Registration](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)
