@@ -7,11 +7,13 @@ languages:
 - dockerfile
 - hcl
 - azurecli
-name: "Microsoft Cognitive Services Speech SDK Samples"
-description: "Learn how to use the Microsoft Cognitive Services Speech SDK to add speech-enabled features to your apps."
+name: "App Service Container with OIDC Client Authentication"
+description: "Deploy a containerized Node.js application and protect it with Azure AD login using OIDC."
 products:
 - azure
-- azure-cognitive-services
+- azure-active-directory
+- azure-app-service
+- azure-container-registry
 ---
 
 # App Service Container with OIDC Client Authentication
